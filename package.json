@@ -1,0 +1,2 @@
+{
+  "name":"whatsapp-api-next","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start -p 3000"},"dependencies":{"@whiskeysockets/baileys":"^6.7.16","next":"^14.2.5","qrcode":"^1.5.4","react":"^18.3.1","react-dom":"^18.3.1"}}

@@ -1,0 +1,12 @@
+services:
+  whatsapp-api:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000"
+    environment:
+      API_TOKEN: change-me
+    volumes:
+      - whatsapp_auth:/data/auth
+volumes:
+  whatsapp_auth:
